@@ -3,3 +3,8 @@ body {
     padding: 40px;
     text-align: center;
 }
+
+.menu {
+    padding: 40px;
+    background-color: yellow;
+}

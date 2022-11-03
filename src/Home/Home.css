@@ -1,0 +1,30 @@
+.home-container {
+    background-color: orange;
+    padding: 4px;
+    display: flex;
+
+}
+
+.home-left {
+    flex: 1;
+    background-color: cornflowerblue;
+}
+
+.home-right {
+    flex: 1;
+    background-color: cadetblue;
+}
+
+.home-circle {
+    background-color: chartreuse;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.headshot {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
