@@ -1,22 +1,26 @@
 .home-container {
-    background-color: orange;
     padding: 4px;
     display: flex;
 
 }
 
 .home-left {
+    display: flex;
     flex: 1;
-    background-color: cornflowerblue;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
 }
 
 .home-right {
+    display: flex;
     flex: 1;
-    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-circle {
-    background-color: chartreuse;
+    background-color: rgb(229, 238, 255);
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -26,5 +30,17 @@
 .headshot {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
+}
+
+.home-text {
+    margin: 30px;
+}
+
+.home-button {
+    width: 35%;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
 }

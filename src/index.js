@@ -6,11 +6,12 @@ import Home from './Home';
 
 const App = () => {
     return (
-        <div className='container'>
-            <NavBar />
-            <Home />
+        <div className='border'>
+            <div className='container'>
+                <NavBar />
+                <Home />
+            </div>
         </div>
-        
     )
 };
 

@@ -1,8 +1,8 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
-    background-color: lightblue;
     font-size: 7px;
+    padding: 20px 30px;
 
 }
 
