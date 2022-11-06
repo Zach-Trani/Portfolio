@@ -19,7 +19,7 @@
     align-items: center;
 }
 
-.home-circle {
+.home-circle {  
     background-color: rgb(229, 238, 255);
     width: 300px;
     height: 300px;
@@ -35,12 +35,18 @@
 
 .home-text {
     margin: 30px;
+    color: aliceblue;
 }
 
 .home-button {
+    display: flex;
+    justify-content: center;
+    border-style:solid;
+    border-color: aliceblue;        
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 20px;
     width: 35%;
-    padding: 8px;
-    border-radius: 25px;
-    background-color: black;
-    color: white;
+    cursor: pointer;
 }

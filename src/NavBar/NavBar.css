@@ -8,4 +8,7 @@
 
 .nav-text {
     cursor: pointer;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 5px;
 }
