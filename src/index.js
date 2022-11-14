@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NavBar from './NavBar';
 import './App.css';
+import NavBar from './NavBar';
 import Home from './Home';
+import ProjectCard from './ProjectCard';
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
             <div className='container'>
                 <NavBar />
                 <Home />
+                <ProjectCard />
             </div>
         </div>
     )

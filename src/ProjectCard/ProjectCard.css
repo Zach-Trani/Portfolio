@@ -1,0 +1,12 @@
+.project-container {
+    display: flex;
+    background-color: cyan;
+    padding: 20px;
+    width: 80%;
+}
+
+.project-container {
+    display: flex;
+    width: 50%;
+    background-color: orange;
+}
